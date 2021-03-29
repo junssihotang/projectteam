@@ -1,0 +1,51 @@
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  span.menu-icon {
+    display: block;
+  }
+  .header-right {
+    display: none !important;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  /* Gantikan width btn ke 100% */
+  .btn {
+    width: 50%;
+  }
+  .message {
+    width: 30%;
+  }
+  /* Gantikan margin-bottom facebook ke 10px */
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  /* Tambahkan CSS untuk top-wrapper */
+  .top-wrapper {
+    text-align: left;
+    padding-top: 130px;
+  }
+  .col {
+    flex: 100%;
+    max-width: 100% ;
+  }
+  
+}
